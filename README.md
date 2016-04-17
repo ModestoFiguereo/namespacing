@@ -10,7 +10,7 @@ Is small tool to make easy implement the namespacing pattern.
 ```sh
 bower install --save namespacing
 ```
--npm:
+- npm:
 ```sh
 npm install --save namespacing
 ```
