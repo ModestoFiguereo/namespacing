@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/ModestoFiguereo/namespacing#readme",
   "devDependencies": {
-    "bower": "^1.7.9",
     "del": "^2.2.0",
     "eslint": "^2.8.0",
     "eslint-config-airbnb": "^7.0.0",
