@@ -104,3 +104,4 @@ crashlytics-build.properties
 !.elasticbeanstalk/*.global.yml
 
 .env
+dist/
