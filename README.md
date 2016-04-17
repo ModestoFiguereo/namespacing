@@ -24,5 +24,5 @@ namespace('app.ajax.http.engine');
 
 And you import it like this:
 ```js
-namespace.import('app.ajax.http.engine');
+var engine = namespace.import('app.ajax.http.engine');
 ```
