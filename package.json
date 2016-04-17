@@ -1,0 +1,45 @@
+{
+  "name": "namespacing",
+  "version": "1.0.0",
+  "description": "small tool to make easy implement the namespacing pattern.",
+  "main": "namespacing.js",
+  "scripts": {
+    "test": "gulp test",
+    "prepublish": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ModestoFiguereo/namespacing.git"
+  },
+  "keywords": [
+    "namespace",
+    "namespacing",
+    "pattern",
+    "javascript",
+    "npm",
+    "bower",
+    "browser",
+    "server"
+  ],
+  "author": "Modesto Figuereo Fernandez <figuereo.fernandez.modesto@gmail.com> (http://www.modestofiguereo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ModestoFiguereo/namespacing/issues"
+  },
+  "homepage": "https://github.com/ModestoFiguereo/namespacing#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "del": "^2.2.0",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2",
+    "eslint-plugin-react": "^4.3.0",
+    "faucet": "0.0.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-minify": "0.0.9",
+    "gulp-shell": "^0.5.2",
+    "run-sequence": "^1.1.5",
+    "tape": "^4.5.1"
+  }
+}
