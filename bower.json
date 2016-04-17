@@ -1,0 +1,38 @@
+{
+  "name": "namespacing",
+  "main": "dist/namespacing.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ModestoFiguereo/namespacing",
+  "authors": [
+    "Modesto Figuereo Fernandez <figuereo.fernandez.modesto@gmail.com>"
+  ],
+  "description": "small tool to make easy implement the namespacing pattern.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "namespace",
+    "pattern",
+    "namespacing",
+    "javascript",
+    "npm",
+    "bower",
+    "browser",
+    "server"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "package.json",
+    ".gitignore",
+    ".npmignore",
+    ".eslintrc",
+    "gulpfile.js",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
