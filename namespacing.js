@@ -1,14 +1,14 @@
 (function (name, global, definition) {
   if (typeof module !== 'undefined') {
     module.exports = definition();
-  } else if (typeof require !== 'undefined' && typeof require.amd === 'object') {
-    define(definition);
+  } else if (typeof global.require !== 'undefined' && typeof global.require.amd === 'object') {
+    global.define(definition);
   } else {
     global[name] = definition();
   }
-})('namespace', this, function () {
+}('namespace', this, function () {
   function namespace(namespaceString) {
-    var ns = window;
+    var ns = global;
     var parts = namespaceString.split('.');
 
     parts.forEach(function (part) {
@@ -23,7 +23,7 @@
   }
 
   namespace.import = function (namespaceString) {
-    var object = window;
+    var object = global;
     var parts = namespaceString.split('.');
 
     parts.forEach(function (part) {
@@ -38,4 +38,4 @@
   };
 
   return namespace;
-});
+}));
