@@ -8,7 +8,7 @@
   }
 }('namespace', this, function () {
   function namespace(namespaceString) {
-    var ns = global;
+    var ns = typeof global === 'undefined' ? window : global;
     var parts = namespaceString.split('.');
 
     parts.forEach(function (part) {
@@ -23,7 +23,7 @@
   }
 
   namespace.import = function (namespaceString) {
-    var object = global;
+    var object = typeof global === 'undefined' ? window : global;
     var parts = namespaceString.split('.');
 
     parts.forEach(function (part) {

@@ -1,6 +1,6 @@
 {
   "name": "namespacing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "small tool to make easy implement the namespacing pattern.",
   "main": "namespacing.js",
   "scripts": {
