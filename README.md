@@ -5,7 +5,7 @@ Is small tool to make easy implement the namespacing pattern.
 ## Installation
 
 - download distribution repo as zip:
-[namespacing](https://github.com/ModestoFiguereo/namespacing-dist/tree/v1.0.0)
+[namespacing](https://github.com/ModestoFiguereo/namespacing-dist/tree/v1.0.1)
 - bower:
 ```sh
 bower install --save namespacing
